@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		108EBB561F131D7E007B1F05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 108EBB551F131D7E007B1F05 /* main.m */; };
+		108EBB591F131D7E007B1F05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 108EBB581F131D7E007B1F05 /* AppDelegate.m */; };
+		108EBB5C1F131D7E007B1F05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 108EBB5B1F131D7E007B1F05 /* ViewController.m */; };
+		108EBB5F1F131D7E007B1F05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108EBB5D1F131D7E007B1F05 /* Main.storyboard */; };
+		108EBB611F131D7E007B1F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108EBB601F131D7E007B1F05 /* Assets.xcassets */; };
+		108EBB641F131D7E007B1F05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108EBB621F131D7E007B1F05 /* LaunchScreen.storyboard */; };
+		108EBB6F1F131D7E007B1F05 /* YQTabBarSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 108EBB6E1F131D7E007B1F05 /* YQTabBarSampleTests.m */; };
+		108EBB7A1F131D7E007B1F05 /* YQTabBarSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 108EBB791F131D7E007B1F05 /* YQTabBarSampleUITests.m */; };
+		108EBB8F1F131DC0007B1F05 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 108EBB8A1F131DC0007B1F05 /* TabBarViewController.m */; };
+		108EBB901F131DC0007B1F05 /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 108EBB8E1F131DC0007B1F05 /* CustomTabBar.m */; };
+		108EBB931F131FC4007B1F05 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 108EBB921F131FC4007B1F05 /* ViewController1.m */; };
+		108EBB961F131FCF007B1F05 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 108EBB951F131FCF007B1F05 /* ViewController2.m */; };
+		108EBB991F131FD9007B1F05 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 108EBB981F131FD9007B1F05 /* ViewController3.m */; };
+		108EBB9C1F131FE3007B1F05 /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 108EBB9B1F131FE3007B1F05 /* ViewController4.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		108EBB6B1F131D7E007B1F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 108EBB491F131D7E007B1F05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 108EBB501F131D7E007B1F05;
+			remoteInfo = YQTabBarSample;
+		};
+		108EBB761F131D7E007B1F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 108EBB491F131D7E007B1F05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 108EBB501F131D7E007B1F05;
+			remoteInfo = YQTabBarSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		108EBB511F131D7E007B1F05 /* YQTabBarSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQTabBarSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		108EBB551F131D7E007B1F05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		108EBB571F131D7E007B1F05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		108EBB581F131D7E007B1F05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		108EBB5A1F131D7E007B1F05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		108EBB5B1F131D7E007B1F05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		108EBB5E1F131D7E007B1F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		108EBB601F131D7E007B1F05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		108EBB631F131D7E007B1F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		108EBB651F131D7E007B1F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		108EBB6A1F131D7E007B1F05 /* YQTabBarSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQTabBarSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		108EBB6E1F131D7E007B1F05 /* YQTabBarSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQTabBarSampleTests.m; sourceTree = "<group>"; };
+		108EBB701F131D7E007B1F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		108EBB751F131D7E007B1F05 /* YQTabBarSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQTabBarSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		108EBB791F131D7E007B1F05 /* YQTabBarSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQTabBarSampleUITests.m; sourceTree = "<group>"; };
+		108EBB7B1F131D7E007B1F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		108EBB891F131DC0007B1F05 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		108EBB8A1F131DC0007B1F05 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		108EBB8D1F131DC0007B1F05 /* CustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBar.h; sourceTree = "<group>"; };
+		108EBB8E1F131DC0007B1F05 /* CustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar.m; sourceTree = "<group>"; };
+		108EBB911F131FC4007B1F05 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		108EBB921F131FC4007B1F05 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		108EBB941F131FCF007B1F05 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		108EBB951F131FCF007B1F05 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		108EBB971F131FD9007B1F05 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		108EBB981F131FD9007B1F05 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		108EBB9A1F131FE3007B1F05 /* ViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
+		108EBB9B1F131FE3007B1F05 /* ViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		108EBB4E1F131D7E007B1F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108EBB671F131D7E007B1F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108EBB721F131D7E007B1F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		108EBB481F131D7E007B1F05 = {
+			isa = PBXGroup;
+			children = (
+				108EBB531F131D7E007B1F05 /* YQTabBarSample */,
+				108EBB6D1F131D7E007B1F05 /* YQTabBarSampleTests */,
+				108EBB781F131D7E007B1F05 /* YQTabBarSampleUITests */,
+				108EBB521F131D7E007B1F05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		108EBB521F131D7E007B1F05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				108EBB511F131D7E007B1F05 /* YQTabBarSample.app */,
+				108EBB6A1F131D7E007B1F05 /* YQTabBarSampleTests.xctest */,
+				108EBB751F131D7E007B1F05 /* YQTabBarSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		108EBB531F131D7E007B1F05 /* YQTabBarSample */ = {
+			isa = PBXGroup;
+			children = (
+				108EBB571F131D7E007B1F05 /* AppDelegate.h */,
+				108EBB581F131D7E007B1F05 /* AppDelegate.m */,
+				108EBB5A1F131D7E007B1F05 /* ViewController.h */,
+				108EBB5B1F131D7E007B1F05 /* ViewController.m */,
+				108EBB911F131FC4007B1F05 /* ViewController1.h */,
+				108EBB921F131FC4007B1F05 /* ViewController1.m */,
+				108EBB941F131FCF007B1F05 /* ViewController2.h */,
+				108EBB951F131FCF007B1F05 /* ViewController2.m */,
+				108EBB971F131FD9007B1F05 /* ViewController3.h */,
+				108EBB981F131FD9007B1F05 /* ViewController3.m */,
+				108EBB9A1F131FE3007B1F05 /* ViewController4.h */,
+				108EBB9B1F131FE3007B1F05 /* ViewController4.m */,
+				108EBB871F131DC0007B1F05 /* TabBar */,
+				108EBB5D1F131D7E007B1F05 /* Main.storyboard */,
+				108EBB601F131D7E007B1F05 /* Assets.xcassets */,
+				108EBB621F131D7E007B1F05 /* LaunchScreen.storyboard */,
+				108EBB651F131D7E007B1F05 /* Info.plist */,
+				108EBB541F131D7E007B1F05 /* Supporting Files */,
+			);
+			path = YQTabBarSample;
+			sourceTree = "<group>";
+		};
+		108EBB541F131D7E007B1F05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				108EBB551F131D7E007B1F05 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		108EBB6D1F131D7E007B1F05 /* YQTabBarSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				108EBB6E1F131D7E007B1F05 /* YQTabBarSampleTests.m */,
+				108EBB701F131D7E007B1F05 /* Info.plist */,
+			);
+			path = YQTabBarSampleTests;
+			sourceTree = "<group>";
+		};
+		108EBB781F131D7E007B1F05 /* YQTabBarSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				108EBB791F131D7E007B1F05 /* YQTabBarSampleUITests.m */,
+				108EBB7B1F131D7E007B1F05 /* Info.plist */,
+			);
+			path = YQTabBarSampleUITests;
+			sourceTree = "<group>";
+		};
+		108EBB871F131DC0007B1F05 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				108EBB881F131DC0007B1F05 /* C */,
+				108EBB8B1F131DC0007B1F05 /* M */,
+				108EBB8C1F131DC0007B1F05 /* V */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		108EBB881F131DC0007B1F05 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				108EBB891F131DC0007B1F05 /* TabBarViewController.h */,
+				108EBB8A1F131DC0007B1F05 /* TabBarViewController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		108EBB8B1F131DC0007B1F05 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		108EBB8C1F131DC0007B1F05 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				108EBB8D1F131DC0007B1F05 /* CustomTabBar.h */,
+				108EBB8E1F131DC0007B1F05 /* CustomTabBar.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		108EBB501F131D7E007B1F05 /* YQTabBarSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 108EBB7E1F131D7E007B1F05 /* Build configuration list for PBXNativeTarget "YQTabBarSample" */;
+			buildPhases = (
+				108EBB4D1F131D7E007B1F05 /* Sources */,
+				108EBB4E1F131D7E007B1F05 /* Frameworks */,
+				108EBB4F1F131D7E007B1F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YQTabBarSample;
+			productName = YQTabBarSample;
+			productReference = 108EBB511F131D7E007B1F05 /* YQTabBarSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		108EBB691F131D7E007B1F05 /* YQTabBarSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 108EBB811F131D7E007B1F05 /* Build configuration list for PBXNativeTarget "YQTabBarSampleTests" */;
+			buildPhases = (
+				108EBB661F131D7E007B1F05 /* Sources */,
+				108EBB671F131D7E007B1F05 /* Frameworks */,
+				108EBB681F131D7E007B1F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				108EBB6C1F131D7E007B1F05 /* PBXTargetDependency */,
+			);
+			name = YQTabBarSampleTests;
+			productName = YQTabBarSampleTests;
+			productReference = 108EBB6A1F131D7E007B1F05 /* YQTabBarSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		108EBB741F131D7E007B1F05 /* YQTabBarSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 108EBB841F131D7E007B1F05 /* Build configuration list for PBXNativeTarget "YQTabBarSampleUITests" */;
+			buildPhases = (
+				108EBB711F131D7E007B1F05 /* Sources */,
+				108EBB721F131D7E007B1F05 /* Frameworks */,
+				108EBB731F131D7E007B1F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				108EBB771F131D7E007B1F05 /* PBXTargetDependency */,
+			);
+			name = YQTabBarSampleUITests;
+			productName = YQTabBarSampleUITests;
+			productReference = 108EBB751F131D7E007B1F05 /* YQTabBarSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		108EBB491F131D7E007B1F05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = OSX;
+				TargetAttributes = {
+					108EBB501F131D7E007B1F05 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AQ5EV6V6CH;
+						ProvisioningStyle = Automatic;
+					};
+					108EBB691F131D7E007B1F05 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 108EBB501F131D7E007B1F05;
+					};
+					108EBB741F131D7E007B1F05 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 108EBB501F131D7E007B1F05;
+					};
+				};
+			};
+			buildConfigurationList = 108EBB4C1F131D7E007B1F05 /* Build configuration list for PBXProject "YQTabBarSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 108EBB481F131D7E007B1F05;
+			productRefGroup = 108EBB521F131D7E007B1F05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				108EBB501F131D7E007B1F05 /* YQTabBarSample */,
+				108EBB691F131D7E007B1F05 /* YQTabBarSampleTests */,
+				108EBB741F131D7E007B1F05 /* YQTabBarSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		108EBB4F1F131D7E007B1F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108EBB641F131D7E007B1F05 /* LaunchScreen.storyboard in Resources */,
+				108EBB611F131D7E007B1F05 /* Assets.xcassets in Resources */,
+				108EBB5F1F131D7E007B1F05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108EBB681F131D7E007B1F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108EBB731F131D7E007B1F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		108EBB4D1F131D7E007B1F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108EBB961F131FCF007B1F05 /* ViewController2.m in Sources */,
+				108EBB8F1F131DC0007B1F05 /* TabBarViewController.m in Sources */,
+				108EBB5C1F131D7E007B1F05 /* ViewController.m in Sources */,
+				108EBB931F131FC4007B1F05 /* ViewController1.m in Sources */,
+				108EBB591F131D7E007B1F05 /* AppDelegate.m in Sources */,
+				108EBB901F131DC0007B1F05 /* CustomTabBar.m in Sources */,
+				108EBB991F131FD9007B1F05 /* ViewController3.m in Sources */,
+				108EBB561F131D7E007B1F05 /* main.m in Sources */,
+				108EBB9C1F131FE3007B1F05 /* ViewController4.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108EBB661F131D7E007B1F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108EBB6F1F131D7E007B1F05 /* YQTabBarSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108EBB711F131D7E007B1F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108EBB7A1F131D7E007B1F05 /* YQTabBarSampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		108EBB6C1F131D7E007B1F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 108EBB501F131D7E007B1F05 /* YQTabBarSample */;
+			targetProxy = 108EBB6B1F131D7E007B1F05 /* PBXContainerItemProxy */;
+		};
+		108EBB771F131D7E007B1F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 108EBB501F131D7E007B1F05 /* YQTabBarSample */;
+			targetProxy = 108EBB761F131D7E007B1F05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		108EBB5D1F131D7E007B1F05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				108EBB5E1F131D7E007B1F05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		108EBB621F131D7E007B1F05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				108EBB631F131D7E007B1F05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		108EBB7C1F131D7E007B1F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		108EBB7D1F131D7E007B1F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		108EBB7F1F131D7E007B1F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AQ5EV6V6CH;
+				INFOPLIST_FILE = YQTabBarSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YQ-Z.YQTabBarSample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		108EBB801F131D7E007B1F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AQ5EV6V6CH;
+				INFOPLIST_FILE = YQTabBarSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YQ-Z.YQTabBarSample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		108EBB821F131D7E007B1F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YQTabBarSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YQ-Z.YQTabBarSampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQTabBarSample.app/YQTabBarSample";
+			};
+			name = Debug;
+		};
+		108EBB831F131D7E007B1F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YQTabBarSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YQ-Z.YQTabBarSampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQTabBarSample.app/YQTabBarSample";
+			};
+			name = Release;
+		};
+		108EBB851F131D7E007B1F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YQTabBarSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YQ-Z.YQTabBarSampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YQTabBarSample;
+			};
+			name = Debug;
+		};
+		108EBB861F131D7E007B1F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YQTabBarSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YQ-Z.YQTabBarSampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YQTabBarSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		108EBB4C1F131D7E007B1F05 /* Build configuration list for PBXProject "YQTabBarSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108EBB7C1F131D7E007B1F05 /* Debug */,
+				108EBB7D1F131D7E007B1F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		108EBB7E1F131D7E007B1F05 /* Build configuration list for PBXNativeTarget "YQTabBarSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108EBB7F1F131D7E007B1F05 /* Debug */,
+				108EBB801F131D7E007B1F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		108EBB811F131D7E007B1F05 /* Build configuration list for PBXNativeTarget "YQTabBarSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108EBB821F131D7E007B1F05 /* Debug */,
+				108EBB831F131D7E007B1F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		108EBB841F131D7E007B1F05 /* Build configuration list for PBXNativeTarget "YQTabBarSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108EBB851F131D7E007B1F05 /* Debug */,
+				108EBB861F131D7E007B1F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 108EBB491F131D7E007B1F05 /* Project object */;
+}
