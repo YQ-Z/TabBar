@@ -20,7 +20,6 @@
     // Override point for customization after application launch.
     
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    
     TabBarViewController *tabBarVC = [TabBarViewController new];
     self.window.rootViewController = tabBarVC;
     [self.window makeKeyAndVisible];
